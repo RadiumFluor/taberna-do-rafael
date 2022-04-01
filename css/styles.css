@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans+Narrow:wght@400;700&display=swap');
+
+html, body {
+	scroll-behavior: smooth;
+}
+
+body {
+	background-color: #262626;
+	font-family: 'PT Sans Narrow', sans-serif;
+	min-height: 150vh;
+}
+
+.titleHeader {
+    margin: auto;
+    text-align: center;
+}
+
+.titleWelcome {
+    font-family: 'PT Sans Narrow', sans-serif;
+    color: wheat;
+}
+
+.titleTaberna {
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-weight: 700;
+    text-align: center;
+    color: coral;
+}
