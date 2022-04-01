@@ -13,11 +13,17 @@ body {
 .titleHeader {
     margin: auto;
     text-align: center;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 20vh;
+    padding-top: 1em;
 }
 
 .titleWelcome {
     font-family: 'PT Sans Narrow', sans-serif;
-    color: wheat;
+    color: rgb(214, 214, 214);
+    font-size: 6vh;
 }
 
 .titleTaberna {
@@ -25,4 +31,6 @@ body {
     font-weight: 700;
     text-align: center;
     color: coral;
+    font-size: 14vh;
+    flex: -3em;
 }
